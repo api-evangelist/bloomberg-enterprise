@@ -6,7 +6,7 @@ description: Bloomberg Enterprise provides enterprise-grade financial data distr
   Data License for bulk data delivery across trading, risk, compliance, and operations
   workflows.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-enterprise/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-04-21'
