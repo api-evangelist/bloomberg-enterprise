@@ -4,6 +4,18 @@ description: Bloomberg Enterprise provides enterprise-grade financial data distr
   solutions for large institutions. It includes B-PIPE for managed data feeds, the Server API for programmatic data
   access, and Bloomberg Data License for bulk data delivery across trading, risk, compliance, and operations workflows.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: true
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - pricing
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
