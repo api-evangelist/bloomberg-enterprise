@@ -1,8 +1,9 @@
 aid: bloomberg-enterprise
 name: Bloomberg Enterprise
-description: Bloomberg Enterprise provides enterprise-grade financial data distribution, analytics, and connectivity
-  solutions for large institutions. It includes B-PIPE for managed data feeds, the Server API for programmatic data
-  access, and Bloomberg Data License for bulk data delivery across trading, risk, compliance, and operations workflows.
+description: Bloomberg Enterprise provides enterprise-grade financial data distribution, analytics, and
+  connectivity solutions for large institutions. It includes B-PIPE for managed data feeds, the Server
+  API for programmatic data access, and Bloomberg Data License for bulk data delivery across trading,
+  risk, compliance, and operations workflows.
 type: Index
 deliveryModel:
   model: unknown
@@ -31,7 +32,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-enterprise.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-enterprise/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-08-27'
+modified: '2026-09-16'
 specificationVersion: '0.23'
 tags:
 - Enterprise Data
@@ -43,9 +44,9 @@ tags:
 apis:
 - aid: bloomberg-enterprise:blpapi
   name: Bloomberg Open API (BLPAPI)
-  description: The core Bloomberg API providing real-time market data, reference data, historical data, and intraday
-    tick data. SDKs available for C++, Java, Python, C#/.NET, and Perl. Connects to Bloomberg Terminal and Enterprise
-    products.
+  description: The core Bloomberg API providing real-time market data, reference data, historical data,
+    and intraday tick data. SDKs available for C++, Java, Python, C#/.NET, and Perl. Connects to Bloomberg
+    Terminal and Enterprise products.
   humanURL: https://bloomberg.github.io/blpapi-docs/
   baseURL: blpapi://localhost:8194
   tags:
@@ -63,9 +64,9 @@ apis:
     title: Python SDK
 - aid: bloomberg-enterprise:bpipe
   name: Bloomberg B-PIPE
-  description: Bloomberg's managed data distribution service enabling enterprise-wide sharing of Bloomberg data
-    with authentication, authorization, and entitlement management. Supports high-performance real-time and snapshot
-    data distribution.
+  description: Bloomberg's managed data distribution service enabling enterprise-wide sharing of Bloomberg
+    data with authentication, authorization, and entitlement management. Supports high-performance real-time
+    and snapshot data distribution.
   humanURL: https://www.bloomberg.com/professional/support/api-library/
   baseURL: blpapi://bpipe-server:8194
   tags:
@@ -78,8 +79,8 @@ apis:
     url: https://www.bloomberg.com/professional/support/api-library/
 - aid: bloomberg-enterprise:data-license
   name: Bloomberg Data License
-  description: Enterprise bulk data delivery platform for reference data, pricing, corporate actions, and analytics.
-    Supports SFTP and SOAP delivery for large-scale data warehouse and application integration.
+  description: Enterprise bulk data delivery platform for reference data, pricing, corporate actions,
+    and analytics. Supports SFTP and SOAP delivery for large-scale data warehouse and application integration.
   humanURL: https://www.bloomberg.com/professional/products/data/data-management/data-license/
   baseURL: https://dlws.bloomberg.com
   tags:
@@ -93,8 +94,8 @@ apis:
     url: https://www.bloomberg.com/professional/products/data/data-management/data-license/
 - aid: bloomberg-enterprise:server-api
   name: Bloomberg Server API (SAPI)
-  description: High-performance server-side API for enterprise programmatic access to Bloomberg data without a Terminal
-    session. Enables integration into trading, risk, and analytics systems.
+  description: High-performance server-side API for enterprise programmatic access to Bloomberg data without
+    a Terminal session. Enables integration into trading, risk, and analytics systems.
   humanURL: https://www.bloomberg.com/professional/support/api-library/
   baseURL: blpapi://server:8194
   tags:
@@ -105,6 +106,8 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/support/api-library/
 common:
+- type: Website
+  url: https://bloomberg.com
 - type: ParentCompany
   url: https://apis.io/providers/bloomberg/
   name: Bloomberg
