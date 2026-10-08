@@ -112,6 +112,12 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/support/api-library/
 common:
+- type: Plans
+  url: plans/bloomberg-enterprise-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/bloomberg-enterprise-rate-limits.yml
+- type: FinOps
+  url: finops/bloomberg-enterprise-finops.yml
 - type: Website
   url: https://bloomberg.com
 - type: ParentCompany
