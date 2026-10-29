@@ -66,20 +66,107 @@
 
 Bloomberg Enterprise provides enterprise-grade financial data distribution, analytics, and connectivity solutions for large institutions. It includes B-PIPE for managed data feeds, the Server API for programmatic data access, and Bloomberg Data License for bulk data delivery across trading, risk, compliance, and operations workflows.
 
-## Products
+**Areas:** Enterprise Data · Financial Data · B-PIPE · Data Distribution · Market Data · Bloomberg
 
-- **Bloomberg Open API (BLPAPI)** - Core API for real-time, reference, and historical data
-- **Bloomberg B-PIPE** - Managed enterprise data distribution service
-- **Bloomberg Data License** - Bulk data delivery for enterprise data management
-- **Bloomberg Server API (SAPI)** - Server-side programmatic data access
+## Bloomberg Enterprise on APIs.io
 
-## Resources
+Everything profiled for Bloomberg Enterprise is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bloomberg-enterprise/](https://apis.io/providers/bloomberg-enterprise/)** — or go straight to one of the APIs or properties below.
 
-- [Bloomberg Professional Portal](https://www.bloomberg.com/professional/)
-- [Bloomberg Developer Portal](https://developer.bloomberg.com/)
-- [Bloomberg GitHub](https://github.com/bloomberg)
-- [BLPAPI Documentation](https://bloomberg.github.io/blpapi-docs/)
+### APIs (4)
 
-## Profile
+- [Bloomberg Open API (BLPAPI)](https://apis.io/apis/bloomberg-enterprise/blpapi/) — The core Bloomberg API providing real-time market data, reference data, historical data, and intraday tick data. SDKs available for C++, Java, Python,…
+- [Bloomberg B-PIPE](https://apis.io/apis/bloomberg-enterprise/bpipe/) — Bloomberg's managed data distribution service enabling enterprise-wide sharing of Bloomberg data with authentication, authorization, and entitlement…
+- [Bloomberg Data License](https://apis.io/apis/bloomberg-enterprise/data-license/) — Enterprise bulk data delivery platform for reference data, pricing, corporate actions, and analytics. Supports SFTP and SOAP delivery for large-scale data…
+- [Bloomberg Server API (SAPI)](https://apis.io/apis/bloomberg-enterprise/server-api/) — High-performance server-side API for enterprise programmatic access to Bloomberg data without a Terminal session. Enables integration into trading, risk,…
 
-See [apis.yml](apis.yml) for the full API profile.
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bloomberg Enterprise Domain Security](https://apis.io/security/bloomberg-enterprise/bloomberg-enterprise-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Bloomberg Enterprise Plans Pricing](https://apis.io/plans/bloomberg-enterprise/bloomberg-enterprise-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Bloomberg Enterprise Rate Limits](https://apis.io/rate-limits/bloomberg-enterprise/bloomberg-enterprise-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Bloomberg Enterprise Finops](https://apis.io/finops/bloomberg-enterprise/bloomberg-enterprise-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bloomberg.com)
+- [Documentation](https://developer.bloomberg.com/)
+- [Support](https://www.bloomberg.com/professional/support/)
+- [Terms of service](https://www.bloomberg.com/notices/tos/)
+- [Privacy policy](https://www.bloomberg.com/privacy/)
+- [GitHub](https://github.com/bloomberg)
+
+## API Evangelist rating
+
+**Kin Score 19.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.5** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bloomberg-enterprise/](https://apis.io/providers/bloomberg-enterprise/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bloomberg Enterprise: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bloomberg-enterprise/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
